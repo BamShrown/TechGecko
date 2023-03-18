@@ -1,0 +1,254 @@
+* {
+  color: #505859;
+  font-family: "Quicksand", sans-serif;
+}
+* h1, * .sudoh1 {
+  font-size: clamp(3.2rem, 10vw, 2.3rem);
+  color: #505859;
+  font-weight: 700;
+}
+* h2, * .sudoh2 {
+  font-size: clamp(2rem, 7vw, 1.9rem);
+  color: #505859;
+  font-weight: 700;
+}
+* h3, * .sudoh3 {
+  font-size: clamp(1.7rem, 5vw, 1.8rem);
+}
+* h4, * .sudoh4 {
+  font-size: clamp(1.4rem, 2.7vw, 1.7rem);
+}
+* h5, * .sudoh5 {
+  font-size: clamp(1.2rem, 2.2vw, 1.5rem);
+}
+* h6, * .sudoh6 {
+  font-size: clamp(1.1rem, 1.8vw, 1.2rem);
+}
+* .smalltext {
+  font-size: 10px;
+}
+* p, * .sudop {
+  font-size: clamp(1rem, 1.5vw, 1rem);
+  font-family: "Golos Text", sans-serif;
+}
+* body {
+  background-color: #d5e8ea;
+}
+.row {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.fade-in-from-left {
+  opacity: 0;
+  transform: translateX(-90px);
+  transition: opacity 1s, transform 1s;
+}
+
+/* CSS code to show the div when it's scrolled into view */
+.fade-in-from-left.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.boxshadow {
+  box-shadow: -1px 10px 26px -3px rgba(0, 0, 0, 0.75);
+}
+
+.textshadow {
+  text-shadow: 2px 2px 8px #000000;
+}
+
+.btn-primary {
+  padding: 5px 16px 5px 16px !important;
+  border-radius: 30px;
+  border: solid 1px #3499A4;
+  transition: 0.4s;
+  background-color: #3499A4;
+  text-decoration: none;
+  color: #d5e8ea;
+  font-size: 20px;
+  font-weight: 700;
+}
+.btn-primary i {
+  color: #d5e8ea;
+}
+.btn-primary:hover {
+  background-color: transparent;
+  border: solid 1px #3499A4;
+  color: #3499A4 !important;
+  transition: 0.4s;
+  text-decoration: none;
+}
+.btn-primary:hover i {
+  color: #3499A4 !important;
+  transition: 0.4s;
+}
+
+.btn-secondary {
+  padding: 5px 16px 5px 16px !important;
+  border-radius: 30px;
+  border: solid 1px #3499A4;
+  transition: 0.4s;
+  background-color: transparent;
+  text-decoration: none;
+  color: #505859;
+  font-size: 20px;
+  font-weight: 700;
+}
+.btn-secondary:hover {
+  background-color: #3499A4;
+  border: #3499A4;
+  color: #d5e8ea !important;
+  transition: 0.4s;
+  text-decoration: none;
+}
+.btn-secondary:hover i {
+  color: #d5e8ea !important;
+  transition: 0.4s;
+}
+
+.textcolor {
+  color: #3499A4;
+}
+
+.navbar {
+  background-color: #d5e8ea;
+  box-shadow: -1px 10px 26px -3px rgba(0, 0, 0, 0.75);
+}
+.navbar .contactbtn {
+  padding: 5px 16px 5px 16px !important;
+  border-radius: 30px;
+  border: solid 1px #3499A4;
+  transition: 0.4s;
+}
+.navbar .contactbtn:hover {
+  background-color: #3499A4;
+  color: #d5e8ea !important;
+  transition: 0.4s;
+}
+.navbar a {
+  transition: 0.4s;
+}
+.navbar a:hover {
+  transition: 0.4s;
+}
+
+.navbar-light, .navbar-nav, .nav-link {
+  color: #505859 !important;
+}
+.navbar-light:hover, .navbar-nav:hover, .nav-link:hover {
+  color: #3499A4 !important;
+}
+
+.herodiv video {
+  max-height: 600px;
+  min-height: 360px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.herodiv h1, .herodiv h2, .herodiv strong {
+  color: white;
+}
+
+.topmain {
+  height: auto;
+  background-color: #e8f0f1;
+}
+.topmain h4 {
+  color: #3499A4;
+}
+.topmain h4 strong {
+  color: #3499A4;
+}
+.topmain h4 i {
+  color: #3499A4;
+}
+
+.smallinfodiv a {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.packagedivs .packdiv1 {
+  background-image: url(../images/Package1.png);
+}
+.packagedivs .packdiv2 {
+  background-image: url(../images/Package2.png);
+}
+.packagedivs .packdiv3 {
+  background-image: url(../images/Package3.png);
+}
+.packagedivs h4 strong {
+  color: #3499A4;
+  font-size: clamp(2rem, 7vw, 1.9rem);
+}
+.packagedivs h3 strong {
+  color: #3499A4;
+}
+.packagedivs .packagediv {
+  height: 390px;
+  background-color: #e8f0f1;
+  border-radius: 50px;
+  transition: 0.5s;
+  box-shadow: -1px 10px 26px -3px rgba(0, 0, 0, 0.75);
+  max-width: 380px;
+}
+.packagedivs .packagediv:hover {
+  transition: 0.5s;
+  box-shadow: -1px 10px 26px -3px rgba(0, 0, 0, 0.75);
+}
+.packagedivs ul {
+  list-style: none;
+}
+
+.aboutus {
+  background-color: #e8f0f1;
+}
+
+.contactus {
+  background-color: #e8f0f1;
+}
+.contactus select {
+  padding: 7px;
+  border-radius: 4px;
+  border: none;
+}
+.contactus .form-group {
+  width: 270px;
+}
+
+.websitediv {
+  background-color: #e8f0f1;
+}
+
+@media (min-width: 992px) {
+  .packagedivs .packagediv {
+    height: 500px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+  }
+}
+@media (min-width: 576px) {
+  .packagedivs .packagediv {
+    height: 420px;
+  }
+  .form-group {
+    width: 400px !important;
+  }
+}/*# sourceMappingURL=index.css.map */

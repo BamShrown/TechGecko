@@ -1,0 +1,419 @@
+
+// Variables
+
+// Colours
+
+$primary-color: #B1E9F0;
+$secondary-color: #505859;
+$third-color: #45C8D6;
+$fourth-color: #3499A4;
+$fifth-color: #d5e8ea;
+$sixth-color: #e8f0f1;
+
+// Font Sizes
+$h1: clamp(3.2rem, 10vw, 2.3rem);
+$h2: clamp(2rem, 7vw, 1.9rem);
+$h3: clamp(1.7rem, 5vw, 1.8rem);
+$h4: clamp(1.4rem, 2.7vw, 1.7rem); 
+$h5: clamp(1.2rem, 2.2vw, 1.5rem); 
+$h6: clamp(1.1rem, 1.8vw, 1.2rem); 
+$p: clamp(1rem, 1.5vw, 1rem); 
+$i: 25px;
+
+
+// All
+
+* {
+    color: $secondary-color;
+    font-family: 'Quicksand', sans-serif;
+    
+    h1, .sudoh1 {
+        font-size: $h1;
+        color: $secondary-color;
+        font-weight: 700;
+    }
+
+    h2, .sudoh2 {
+        font-size: $h2;
+        color: $secondary-color;
+        font-weight: 700;
+    }
+
+    h3, .sudoh3 {
+        font-size: $h3;
+    }
+
+    h4, .sudoh4 {
+        font-size: $h4;
+    }
+
+    h5, .sudoh5 {
+        font-size: $h5;
+        
+    }
+    h6, .sudoh6 {
+        font-size: $h6;
+        
+    }
+
+    .smalltext {
+        font-size: 10px;
+    }
+
+    p, .sudop {
+        font-size: $p;
+        font-family: 'Golos Text', sans-serif;
+    }
+
+    body {
+        background-color: $fifth-color;
+    }
+
+    img {
+    }
+
+}
+
+.row {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+.fade-in-from-left {
+    opacity: 0;
+    transform: translateX(-90px);
+    transition: opacity 1s, transform 1s;
+  }
+  
+  /* CSS code to show the div when it's scrolled into view */
+.fade-in-from-left.show {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+
+.reveal{
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s all ease;
+}
+  
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+
+.boxshadow {
+    -webkit-box-shadow: -1px 10px 26px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 10px 26px -3px rgba(0,0,0,0.75);
+    box-shadow: -1px 10px 26px -3px rgba(0,0,0,0.75);
+}
+
+.textshadow {
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.btn-primary {
+    padding: 5px 16px 5px 16px!important;
+    border-radius: 30px;
+    border: solid 1px $fourth-color;
+    transition: 0.4s;
+    background-color: $fourth-color;
+    text-decoration: none; 
+    color: $fifth-color;
+    font-size: 20px;
+    font-weight: 700;
+
+
+
+    i {
+        color: $fifth-color;
+    }
+
+    &:hover {
+        background-color: transparent;
+        border: solid 1px $fourth-color;
+        color: $fourth-color!important;
+        transition: 0.4s;
+        text-decoration: none;
+
+        i {
+            color: $fourth-color!important;
+            transition: 0.4s;
+        }
+    }
+  
+}
+
+.btn-secondary {
+    padding: 5px 16px 5px 16px!important;
+    border-radius: 30px;
+    border: solid 1px $fourth-color;
+    transition: 0.4s;
+    background-color: transparent;
+    text-decoration: none; 
+    color: $secondary-color;
+    font-size: 20px;
+    font-weight: 700;
+
+
+    &:hover {
+        background-color: $fourth-color;
+        border: $fourth-color;
+        color: $fifth-color!important;
+        transition: 0.4s;
+        text-decoration: none;
+
+        i {
+            color: $fifth-color!important;
+            transition: 0.4s;
+        }
+    }
+  
+}
+
+.textcolor {
+    color: $fourth-color;
+}
+
+//
+//    NAVBAR
+////////////////////////
+
+.navbar {
+    background-color: $fifth-color;
+    -webkit-box-shadow: -1px 10px 26px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 10px 26px -3px rgba(0,0,0,0.75);
+    box-shadow: -1px 10px 26px -3px rgba(0,0,0,0.75);
+
+    .contactbtn {
+        padding: 5px 16px 5px 16px!important;
+        border-radius: 30px;
+        border: solid 1px $fourth-color;
+        transition: 0.4s;   
+
+        &:hover {
+            background-color: $fourth-color;
+            color: $fifth-color!important;
+            transition: 0.4s;
+        }
+        
+        
+    }
+
+    a {
+        transition: 0.4s;
+        &:hover {
+            transition: 0.4s;
+        }
+    }
+}
+
+.navbar-light, .navbar-nav, .nav-link {
+    color: $secondary-color!important;
+
+    &:hover {
+        color: $fourth-color!important;
+    }
+}
+
+
+//
+//    HERO DIV
+////////////////////////
+
+.herodiv {
+    video {
+        max-height: 600px;
+        min-height: 360px;
+        object-fit: cover;
+        object-position: center;
+    }
+    h1, h2, strong {
+        color: white;
+    }
+
+}
+
+
+
+//
+//    MAIN
+////////////////////////
+
+.topmain {
+    height: auto;
+    background-color: $sixth-color;
+
+    h4 {
+        color: $fourth-color;
+
+        strong {
+            color: $fourth-color;
+        }
+        i {
+            color: $fourth-color;
+        }
+    }
+}
+
+.smallinfodiv {
+    
+    a {
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+
+//
+//    PACKAGE DEALS
+////////////////////////
+
+.packagedivs {
+
+    .packdiv1 {
+        background-image: url(../images/Package1.png);
+    }
+    .packdiv2 {
+        background-image: url(../images/Package2.png);
+    }
+    .packdiv3 {
+        background-image: url(../images/Package3.png);
+    }
+
+    h4 {
+        strong {
+            color: $fourth-color;
+            font-size: $h2;
+        }
+    }
+    
+    h3 {
+        strong {
+            color: $fourth-color;
+        }
+    }
+    .packagediv {
+        height: 390px;
+        background-color: $sixth-color;
+        border-radius: 50px;
+        transition: 0.5s;
+        -webkit-box-shadow: -1px 10px 26px -3px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 10px 26px -3px rgba(0,0,0,0.75);
+        box-shadow: -1px 10px 26px -3px rgba(0,0,0,0.75);
+        max-width: 380px;
+
+
+        &:hover {
+            transition: 0.5s;
+            -webkit-box-shadow: -1px 10px 26px -3px rgba(0,0,0,0.75);
+            -moz-box-shadow: -1px 10px 26px -3px rgba(0,0,0,0.75);
+            box-shadow: -1px 10px 26px -3px rgba(0,0,0,0.75);
+        }
+    }
+
+    ul {
+        list-style: none;
+    }
+
+}
+
+
+//
+//    ABOUT US
+////////////////////////
+
+.aboutus {
+    background-color: $sixth-color;
+}
+
+//
+//    ABOUT US
+////////////////////////
+
+.contactus {
+    background-color: $sixth-color;
+
+    select {
+        padding: 7px;
+        border-radius: 4px;
+        border: none;
+    }
+
+    .form-group {
+        width: 270px;
+    }
+}
+
+//
+//    ALREADY GOT A WEBSITE
+/////////////////////////////
+
+.websitediv {
+    background-color: $sixth-color;
+}
+
+//   ALL MEDIA
+////////////////////////////////////////////////
+//
+// 
+//   EX LARGE SCREENS
+////////////////////////
+
+  @media (min-width: 1200px) {
+
+
+  }
+
+
+// 
+//   LARGE SCREENS
+////////////////////////
+
+@media (min-width: 992px) {
+
+    .packagedivs {
+        .packagediv {
+            height: 500px;
+            -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+            box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+        }
+    }
+
+
+}
+
+
+// 
+//   MEDIUM SCREENS
+////////////////////////
+
+@media (min-width: 768px) {
+   
+
+ 
+}
+
+
+// 
+//   SMALL SCREENS
+////////////////////////
+
+@media (min-width: 576px) {
+
+    .packagedivs {
+        .packagediv {
+            height: 420px;
+        }
+    }
+
+    .form-group {
+        width: 400px!important;
+    }
+    
+}
