@@ -100,11 +100,20 @@ $i: 25px;
     opacity: 0;
     transition: 0.7s all ease;
 }
+
+.revealdelay{
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s all ease;
+}
   
 .reveal.active{
     transform: translateY(0);
     opacity: 1;
   }
+
+
 
 
 .boxshadow {
@@ -361,6 +370,23 @@ $i: 25px;
 ////////////////////////////////////////////////
 //
 // 
+
+//   EX EX LARGE SCREENS
+////////////////////////
+
+@media (min-width: 1450px) {
+    .herodiv {
+        video {
+            max-height: 850px;
+        }
+    }
+
+  }
+
+
+
+
+
 //   EX LARGE SCREENS
 ////////////////////////
 

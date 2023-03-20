@@ -13,3 +13,8 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
+
+setTimeout(function() {
+  var revealDiv = document.querySelector('.reveal');
+  revealDiv.classList.add('reveal.active');
+}, 2000);

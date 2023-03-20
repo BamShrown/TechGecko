@@ -57,7 +57,14 @@
   position: relative;
   transform: translateY(100px);
   opacity: 0;
-  transition: 1s all ease;
+  transition: 0.7s all ease;
+}
+
+.revealdelay {
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 0.7s all ease;
 }
 
 .reveal.active {
@@ -238,6 +245,11 @@
   background-color: #e8f0f1;
 }
 
+@media (min-width: 1450px) {
+  .herodiv video {
+    max-height: 850px;
+  }
+}
 @media (min-width: 992px) {
   .packagedivs .packagediv {
     height: 500px;
