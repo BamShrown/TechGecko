@@ -17,4 +17,4 @@ window.addEventListener("scroll", reveal);
 setTimeout(function() {
   var revealDiv = document.querySelector('.revealdelay');
   revealDiv.classList.add('active');
-}, 1200);
+}, 1800);
