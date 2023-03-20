@@ -33,6 +33,12 @@ $i: 25px;
         font-weight: 700;
     }
 
+    .sudoh1thin {
+        font-size: $h1;
+        color: $secondary-color;
+        font-weight: 400;
+    }
+
     h2, .sudoh2 {
         font-size: $h2;
         color: $secondary-color;
@@ -204,6 +210,10 @@ $i: 25px;
     -moz-box-shadow: -1px 10px 26px -3px rgba(0,0,0,0.75);
     box-shadow: -1px 10px 26px -3px rgba(0,0,0,0.75);
 
+
+    .navlogo {
+        width: 13rem;
+    }
     .contactbtn {
         padding: 5px 16px 5px 16px!important;
         border-radius: 30px;
@@ -249,6 +259,10 @@ $i: 25px;
     }
     h1, h2, strong {
         color: white;
+    }
+
+    img {
+        height: $h1;
     }
 
 }
@@ -370,6 +384,21 @@ $i: 25px;
 .websitediv {
     background-color: $sixth-color;
 }
+
+//
+//    PACKAGES DIV
+/////////////////////////////
+
+
+.packagemain {
+    background-color: $sixth-color;
+}
+
+.packagediv {
+    background-color: white;
+    border-radius: 50px;
+}
+
 
 //   ALL MEDIA
 ////////////////////////////////////////////////

@@ -7,6 +7,11 @@
   color: #505859;
   font-weight: 700;
 }
+* .sudoh1thin {
+  font-size: clamp(3.2rem, 10vw, 2.3rem);
+  color: #505859;
+  font-weight: 400;
+}
 * h2, * .sudoh2 {
   font-size: clamp(2rem, 7vw, 1.9rem);
   color: #505859;
@@ -142,6 +147,9 @@
   background-color: #d5e8ea;
   box-shadow: -1px 10px 26px -3px rgba(0, 0, 0, 0.75);
 }
+.navbar .navlogo {
+  width: 13rem;
+}
 .navbar .contactbtn {
   padding: 5px 16px 5px 16px !important;
   border-radius: 30px;
@@ -177,6 +185,9 @@
 }
 .herodiv h1, .herodiv h2, .herodiv strong {
   color: white;
+}
+.herodiv img {
+  height: clamp(3.2rem, 10vw, 2.3rem);
 }
 
 .topmain {
@@ -248,6 +259,15 @@
 
 .websitediv {
   background-color: #e8f0f1;
+}
+
+.packagemain {
+  background-color: #e8f0f1;
+}
+
+.packagediv {
+  background-color: white;
+  border-radius: 50px;
 }
 
 @media (min-width: 1750px) {
