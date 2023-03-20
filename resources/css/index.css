@@ -250,7 +250,7 @@
   background-color: #e8f0f1;
 }
 
-@media (min-width: 1450px) {
+@media (min-width: 1750px) {
   .herodiv video {
     max-height: 850px;
   }
