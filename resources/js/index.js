@@ -19,10 +19,9 @@ setTimeout(function() {
   revealDiv.classList.add('active');
 }, 1800);
 
-window.onload = function() {
-  setTimeout(function() {
-    var heroImg = document.querySelector(".heroimg");
-    heroImg.classList.add("rotate"); // Add the 'rotate' class to trigger the rotation animation
-    heroImg.style.opacity = 1; // Set the opacity to 1 to trigger the fade in animation
-  }, 1000); // Wait 2 seconds before animating the image
-};
+
+setTimeout(function() {
+  var heroImg = document.querySelector(".heroimg");
+  heroImg.classList.add("rotate"); // Add the 'rotate' class to trigger the rotation animation
+  heroImg.style.opacity = 1; // Set the opacity to 1 to trigger the fade in animation
+}, 1000); // Wait 2 seconds before animating the image
