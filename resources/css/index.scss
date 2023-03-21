@@ -270,6 +270,15 @@ $i: 25px;
 
 }
 
+.heroimg {
+    opacity: 0; /* Set the initial opacity of the image to 0 */
+    transition: all 1s ease; /* Set a transition for the animation */
+  }
+
+.rotate {
+    transform: rotate(360deg); /* Set the rotation angle for the animation */
+  }
+
 
 
 //
