@@ -392,6 +392,21 @@ $i: 25px;
         color: $secondary-color;
         font-size: $h6;
         font-weight: 700;
+
+        &:hover {
+            text-decoration: none;
+            color: $fourth-color;
+            i {
+                color: $fourth-color;
+            }
+        }
+        &:active {
+            color: $fourth-color;
+            text-decoration: none;
+            i {
+                color: $fourth-color;
+            }
+        }
     }
 }
 

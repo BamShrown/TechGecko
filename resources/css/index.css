@@ -273,6 +273,20 @@
   font-size: clamp(1.1rem, 1.8vw, 1.2rem);
   font-weight: 700;
 }
+.contactus a:hover {
+  text-decoration: none;
+  color: #3499A4;
+}
+.contactus a:hover i {
+  color: #3499A4;
+}
+.contactus a:active {
+  color: #3499A4;
+  text-decoration: none;
+}
+.contactus a:active i {
+  color: #3499A4;
+}
 
 .websitediv {
   background-color: #e8f0f1;
