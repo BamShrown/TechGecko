@@ -316,13 +316,13 @@ $i: 25px;
 .packagedivs {
 
     .packdiv1 {
-        background-image: url(../images/Package1.png);
+        background-image: url(../images/Package3.png);
     }
     .packdiv2 {
-        background-image: url(../images/Package2.png);
+        background-image: url(../images/Package1.png);
     }
     .packdiv3 {
-        background-image: url(../images/Package3.png);
+        background-image: url(../images/Package2.png);
     }
 
     h4 {
@@ -372,7 +372,7 @@ $i: 25px;
 }
 
 //
-//    ABOUT US
+//    CONTACT US
 ////////////////////////
 
 .contactus {
@@ -386,6 +386,12 @@ $i: 25px;
 
     .form-group {
         width: 270px;
+    }
+
+    a {
+        color: $secondary-color;
+        font-size: $h6;
+        font-weight: 700;
     }
 }
 
@@ -409,6 +415,24 @@ $i: 25px;
 .packagediv {
     background-color: white;
     border-radius: 50px;
+    h2 {
+        color: $fourth-color;
+    }
+    h3 {
+        color: $fourth-color;
+        strong {
+            color: $fourth-color;
+        }
+    }
+    h4 {
+        color: $fourth-color;
+        strong {
+            color: $fourth-color;
+        }
+    }
+    i {
+        font-size: $h5;
+    }
 }
 
 
@@ -489,7 +513,7 @@ $i: 25px;
 
     .packagedivs {
         .packagediv {
-            height: 420px;
+            height: 429px;
         }
     }
 
