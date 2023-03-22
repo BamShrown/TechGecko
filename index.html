@@ -50,10 +50,19 @@
   <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNavAltMarkup">
     <div class="navbar-nav text-center align-items-center">
       <a class="nav-item nav-link" href="/resources/aboutus">ABOUT US</a>
-      <a class="nav-item nav-link" href="/resources/packages">PACKAGES</a>
+      <a class="nav-item nav-link mr-0 mr-md-3" href="/resources/packages">OFFERS</a>
       <a class="nav-item nav-link d-lg-none mb-3" href="/resources/contact">CONTACT</a>
-      <a class="nav-item nav-link contactbtn sudoh6 d-none d-lg-block mx-3" href="/resources/contact">CONTACT</a>
-    </div>
+      <button class="blob-btn d-none d-md-block" href="/resources/contact">
+        CONTACT
+        <span class="blob-btn__inner">
+          <span class="blob-btn__blobs">
+            <span class="blob-btn__blob"></span>
+            <span class="blob-btn__blob"></span>
+            <span class="blob-btn__blob"></span>
+            <span class="blob-btn__blob"></span>
+          </span>
+        </span>
+      </button>
   </div>
 </nav>
   
@@ -61,7 +70,7 @@
 
 
 <div class="overflow-hidden w-100 viddiv herodiv d-flex justify-content-center align-items-center align-items-md-end">
-  <video autoplay muted preload="auto" loop class="w-100 h-100 bannervid" src="resources/images/HeroVideo.mp4"></video>
+  <video autoplay muted preload="auto" loop playsinline="playsinline" class="w-100 h-100 bannervid" src="resources/images/HeroVideo.mp4"></video>
   <div class="videotext container position-absolute text-center text-md-left mb-md-5 ml-md-5 p-md-3 d-sm-block">
     <div class="row">
       <div class="col-12">
@@ -86,7 +95,17 @@
             <h2 class="mb-4">We are a small <span class="textcolor">website developing</span> company based in Newcastle Upon Tyne, focused on <span class="textcolor">affordable</span>, <span class="textcolor">responsive</span> and <span class="textcolor">modern</span> websites that look great on all devices.</h2>
           </div>
           <div class="w-100 d-flex justify-content-center">
-            <a class="btn-primary text-center m-auto d-flex align-items-center" href="/resources/aboutus">READ MORE <i class="fas fa-chevron-right ml-2"></i></a>
+              <button class="blob-btn m-auto d-flex align-items-center" href="/resources/aboutus">
+              READ MORE <i class="fas fa-chevron-right ml-2"></i>
+              <span class="blob-btn__inner">
+                <span class="blob-btn__blobs">
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                </span>
+              </span>
+            </button>
           </div>
         </div>
       </div>
@@ -237,3 +256,13 @@
 </footer>
 
 </body>
+
+<svg class="d-none" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+      <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+    </filter>
+  </defs>
+</svg>
