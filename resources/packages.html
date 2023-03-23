@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Our Offers</title>
+    <title>Packages</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -50,9 +50,21 @@
   <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNavAltMarkup">
     <div class="navbar-nav text-center align-items-center">
       <a class="nav-item nav-link" href="/resources/aboutus">ABOUT US</a>
-      <a class="nav-item nav-link" href="/resources/packages">OFFERS</a>
+      <a class="nav-item nav-link mr-0 mr-md-3" href="/resources/packages">PACKAGES</a>
       <a class="nav-item nav-link d-lg-none mb-3" href="/resources/contact">CONTACT</a>
-      <a class="nav-item nav-link contactbtn sudoh6 d-none d-lg-block mx-3" href="#">CONTACT</a>
+      <a href="/resources/contact">
+        <button class="blob-btn d-none d-md-block" href="/resources/contact">
+          CONTACT
+          <span class="blob-btn__inner">
+            <span class="blob-btn__blobs">
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+            </span>
+          </span>
+        </button>
+        </a>
     </div>
   </div>
 </nav>
@@ -61,7 +73,7 @@
   <div class="container my-3 my-md-5">
     <div class="row">
         <div class="col-12 text-center text-md-left mb-2">
-          <h1>Our Offers</h1>
+          <h1>Packages</h1>
         </div>
         <div class="col-12 col-md-7 mb-4 text-center text-md-left">            
             <p>All of our websites are hard coded from scratch, this gives them an advantage over website developing sites such as Wix or Squarespace. 
@@ -137,3 +149,15 @@
 </footer>
 
 </body>
+
+<!-- SVG FOR BUTTON ANIMATION -->
+
+<svg class="d-none" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+      <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+    </filter>
+  </defs>
+</svg>

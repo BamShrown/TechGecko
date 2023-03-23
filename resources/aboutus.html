@@ -43,16 +43,30 @@
   <!-- NAVIGATION BAR -->
 
 <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-  <a class="navbar-brand ml-3" href="/"><img class="navlogo" src="images/FullLogo.png" alt="TechGeckoFullLogo"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNavAltMarkup">
-    <div class="navbar-nav text-center align-items-center">
-      <a class="nav-item nav-link" href="/resources/aboutus">ABOUT US</a>
-      <a class="nav-item nav-link" href="/resources/packages">OFFERS</a>
-      <a class="nav-item nav-link d-lg-none mb-3" href="/resources/contact">CONTACT</a>
-      <a class="nav-item nav-link contactbtn sudoh6 d-none d-lg-block mx-3" href="#">CONTACT</a>
+  <div class="container">
+    <a class="navbar-brand ml-3" href="/"><img class="navlogo" src="images/FullLogo.png" alt="TechGeckoFullLogo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNavAltMarkup">
+      <div class="navbar-nav text-center align-items-center">
+        <a class="nav-item nav-link" href="/resources/aboutus">ABOUT US</a>
+        <a class="nav-item nav-link mr-0 mr-md-3" href="/resources/packages">PACKAGES</a>
+        <a class="nav-item nav-link d-lg-none mb-3" href="/resources/contact">CONTACT</a>
+        <a href="/resources/contact">
+          <button class="blob-btn d-none d-md-block" href="/resources/contact">
+            CONTACT
+            <span class="blob-btn__inner">
+              <span class="blob-btn__blobs">
+                <span class="blob-btn__blob"></span>
+                <span class="blob-btn__blob"></span>
+                <span class="blob-btn__blob"></span>
+                <span class="blob-btn__blob"></span>
+              </span>
+            </span>
+          </button>
+          </a>
+      </div>
     </div>
   </div>
 </nav>
@@ -69,7 +83,19 @@
                     We aim to help the smaller, independant businesses - your barbers, cafes, tattoo artists, we want to help you get your business out there and gather more customers.<br><br>
                     We know what works, and what people want to see. They want modern, easy to navigate, less cluttered sites. This is what we specialise in.<br><br>
                     Contact us now, and we can have a chat about how we can help you with your business.</p><br>
-                <a class="btn-primary pt-5 align-items-center" href="/resources/contact">GET IN TOUCH<i class="fas fa-chevron-right ml-2"></i></a>
+                <a href="/resources/contact">
+                  <button class="blob-btn d-none d-md-block">
+                    GET IN TOUCH<i class="fas fa-chevron-right ml-2"></i>
+                    <span class="blob-btn__inner">
+                      <span class="blob-btn__blobs">
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                      </span>
+                    </span>
+                  </button>
+                </a>
             </div>
             <div class="col-12 col-md-5">
                 <img class="w-100 mt-5 mt-md-0" src="../resources/images/MacImg.jpg" alt="WebsiteDevelopment" style="border-radius: 40px;">
@@ -88,3 +114,16 @@
 </footer>
 
 </body>
+
+
+<!-- SVG FOR BUTTON ANIMATION -->
+
+<svg class="d-none" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+      <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+    </filter>
+  </defs>
+</svg>

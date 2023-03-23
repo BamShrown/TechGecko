@@ -124,7 +124,9 @@ $i: 25px;
     opacity: 1;
   }
 
-
+a:hover {
+    text-decoration: none;
+}
 
 
 .boxshadow {
@@ -455,99 +457,19 @@ $i: 25px;
 }
 
 
-//   ALL MEDIA
-////////////////////////////////////////////////
-//
-// 
-
-//   EX EX LARGE SCREENS
+//   BUTTON BLOB CSS
 ////////////////////////
 
-@media (min-width: 1750px) {
-    .herodiv {
-        video {
-            max-height: 850px;
-        }
-    }
-
-  }
-
-
-
-
-
-//   EX LARGE SCREENS
-////////////////////////
-
-  @media (min-width: 1200px) {
-
-
-  }
-
-
-// 
-//   LARGE SCREENS
-////////////////////////
-
-@media (min-width: 992px) {
-
-    .packagedivs {
-        .packagediv {
-            height: 500px;
-            -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
-            -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
-            box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
-        }
-    }
-
+button:focus {
+    outline: none!important;
 
 }
-
-
-// 
-//   MEDIUM SCREENS
-////////////////////////
-
-@media (min-width: 768px) {
-   
-    .herodiv {
-
-    
-        img {
-            height: $h1;
-            padding: 0px;
-            background-color: transparent;
-        }
-    
-    }
- 
-}
-
-
-// 
-//   SMALL SCREENS
-////////////////////////
-
-@media (min-width: 576px) {
-
-    .packagedivs {
-        .packagediv {
-            height: 429px;
-        }
-    }
-
-    .form-group {
-        width: 400px!important;
-    }
-    
-}
-
-
   
   .buttons {
     margin-top: 50px;
     text-align: center;
     border-radius:30px;
+    text-decoration: none;
   }
   
   $dark: transparent;
@@ -557,7 +479,7 @@ $i: 25px;
     $numOfBlobs: 4;
     z-index: 1;
     position: relative;
-    padding: 10px 46px;
+    padding: 8px 40px;
     text-align: center;
     text-transform: uppercase;
     color: $fourth-color;
@@ -672,3 +594,94 @@ $i: 25px;
     }
     
   }
+
+
+
+
+//   ALL MEDIA
+////////////////////////////////////////////////
+//
+// 
+
+//   EX EX LARGE SCREENS
+////////////////////////
+
+@media (min-width: 1750px) {
+    .herodiv {
+        video {
+            max-height: 850px;
+        }
+    }
+
+  }
+
+
+
+
+
+//   EX LARGE SCREENS
+////////////////////////
+
+  @media (min-width: 1200px) {
+
+
+  }
+
+
+// 
+//   LARGE SCREENS
+////////////////////////
+
+@media (min-width: 992px) {
+
+    .packagedivs {
+        .packagediv {
+            height: 500px;
+            -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+            box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+        }
+    }
+
+
+}
+
+
+// 
+//   MEDIUM SCREENS
+////////////////////////
+
+@media (min-width: 768px) {
+   
+    .herodiv {
+
+    
+        img {
+            height: $h1;
+            padding: 0px;
+            background-color: transparent;
+        }
+    
+    }
+ 
+}
+
+
+// 
+//   SMALL SCREENS
+////////////////////////
+
+@media (min-width: 576px) {
+
+    .packagedivs {
+        .packagediv {
+            height: 429px;
+        }
+    }
+
+    .form-group {
+        width: 400px!important;
+    }
+    
+}
+
