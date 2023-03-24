@@ -210,6 +210,9 @@ a:hover {
   height: auto;
   background-color: #e8f0f1;
 }
+.topmain svg {
+  background-color: #d5e8ea;
+}
 .topmain h4 {
   color: #3499A4;
 }
@@ -226,13 +229,25 @@ a:hover {
 }
 
 .packagedivs .packdiv1 {
-  background-image: url(../images/Package3.png);
+  background-image: url(../images/wave.png);
+  background-position: bottom;
+}
+.packagedivs .packdiv1:hover {
+  background-position: center;
 }
 .packagedivs .packdiv2 {
-  background-image: url(../images/Package1.png);
+  background-image: url(../images/wave2.png);
+  background-position: bottom;
+}
+.packagedivs .packdiv2:hover {
+  background-position: center;
 }
 .packagedivs .packdiv3 {
-  background-image: url(../images/Package2.png);
+  background-image: url(../images/wave3.png);
+  background-position: bottom;
+}
+.packagedivs .packdiv3:hover {
+  background-position: center;
 }
 .packagedivs h4 strong {
   color: #3499A4;
@@ -292,8 +307,11 @@ a:hover {
   color: #3499A4;
 }
 
-.websitediv {
+.alreadydiv {
   background-color: #e8f0f1;
+}
+.alreadydiv svg {
+  background-color: #d5e8ea;
 }
 
 .packagemain {
@@ -304,8 +322,16 @@ a:hover {
 }
 
 .packagediv {
-  background-color: white;
+  background-image: url(../images/wave.png);
+  background-position: center;
+  background-size: cover;
+  transition: 1s;
   border-radius: 50px;
+}
+.packagediv:hover {
+  background-position: bottom;
+  transition: 1s;
+  box-shadow: -1px 10px 26px -3px rgba(0, 0, 0, 0.75);
 }
 .packagediv h2 {
   color: #3499A4;
@@ -322,8 +348,12 @@ a:hover {
 .packagediv h4 strong {
   color: #3499A4;
 }
-.packagediv i {
-  font-size: clamp(1.2rem, 2.2vw, 1.5rem);
+.packagediv img {
+  width: 23px;
+}
+.packagediv .packagebullets {
+  background-color: rgba(232, 240, 241, 0.6784313725);
+  border-radius: 30px;
 }
 
 button:focus {
@@ -472,7 +502,7 @@ button:focus {
 }
 @media (min-width: 576px) {
   .packagedivs .packagediv {
-    height: 429px;
+    height: 450px;
   }
   .form-group {
     width: 400px !important;

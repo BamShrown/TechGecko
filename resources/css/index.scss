@@ -291,6 +291,10 @@ a:hover {
     height: auto;
     background-color: $sixth-color;
 
+    svg {
+        background-color: $fifth-color;
+    }
+
     h4 {
         color: $fourth-color;
 
@@ -318,13 +322,25 @@ a:hover {
 .packagedivs {
 
     .packdiv1 {
-        background-image: url(../images/Package3.png);
+        background-image: url(../images/wave.png);
+        background-position: bottom;
+        &:hover {
+            background-position: center;
+        }
     }
     .packdiv2 {
-        background-image: url(../images/Package1.png);
+        background-image: url(../images/wave2.png);
+        background-position: bottom;
+        &:hover {
+            background-position: center;
+        }
     }
     .packdiv3 {
-        background-image: url(../images/Package2.png);
+        background-image: url(../images/wave3.png);
+        background-position: bottom;
+        &:hover {
+            background-position: center;
+        }
     }
 
     h4 {
@@ -416,12 +432,16 @@ a:hover {
 //    ALREADY GOT A WEBSITE
 /////////////////////////////
 
-.websitediv {
+.alreadydiv {
     background-color: $sixth-color;
+    
+    svg {
+        background-color: $fifth-color;
+    }
 }
 
 //
-//    OFFERS DIV
+//    PACKAGES DIV
 /////////////////////////////
 
 
@@ -433,7 +453,18 @@ a:hover {
 }
 
 .packagediv {
-    background-color: white;
+    background-image: url(../images/wave.png);
+    background-position: center;
+    background-size: cover;
+    transition: 1s;
+    
+    &:hover {
+        background-position: bottom;
+        transition: 1s;
+        -webkit-box-shadow: -1px 10px 26px -3px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 10px 26px -3px rgba(0,0,0,0.75);
+        box-shadow: -1px 10px 26px -3px rgba(0,0,0,0.75);
+    }
     border-radius: 50px;
     h2 {
         color: $fourth-color;
@@ -450,8 +481,13 @@ a:hover {
             color: $fourth-color;
         }
     }
-    i {
-        font-size: $h5;
+    img {
+        width: 23px;
+    }
+
+    .packagebullets {
+        background-color: #e8f0f1ad;
+        border-radius: 30px;
     }
 
 }
@@ -675,7 +711,7 @@ button:focus {
 
     .packagedivs {
         .packagediv {
-            height: 429px;
+            height: 450px;
         }
     }
 
