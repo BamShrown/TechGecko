@@ -230,24 +230,33 @@ a:hover {
 
 .packagedivs .packdiv1 {
   background-image: url(../images/wave.png);
-  background-position: bottom;
+  background-position: left;
+  background-size: cover;
+  transition: 1s;
 }
 .packagedivs .packdiv1:hover {
-  background-position: center;
+  background-position: right;
+  transition: 1s;
 }
 .packagedivs .packdiv2 {
   background-image: url(../images/wave2.png);
-  background-position: bottom;
+  background-position: left;
+  background-size: cover;
+  transition: 1s;
 }
 .packagedivs .packdiv2:hover {
-  background-position: center;
+  background-position: right;
+  transition: 1s;
 }
 .packagedivs .packdiv3 {
   background-image: url(../images/wave3.png);
-  background-position: bottom;
+  background-position: left;
+  background-size: cover;
+  transition: 1s;
 }
 .packagedivs .packdiv3:hover {
-  background-position: center;
+  background-position: right;
+  transition: 1s;
 }
 .packagedivs h4 strong {
   color: #3499A4;
@@ -322,7 +331,7 @@ a:hover {
 }
 
 .packagediv {
-  background-image: url(../images/wave.png);
+  background-image: url(../images/wavelong.png);
   background-position: center;
   background-size: cover;
   transition: 1s;
