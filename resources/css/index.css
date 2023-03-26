@@ -318,6 +318,7 @@ a:hover {
 
 .alreadydiv {
   background-color: #e8f0f1;
+  margin-bottom: -10px;
 }
 .alreadydiv svg {
   background-color: #d5e8ea;
@@ -376,7 +377,10 @@ a:hover {
 
 footer {
   background-color: #3499A4;
-  height: 400px;
+  height: auto;
+  color: white;
+}
+footer p {
   color: white;
 }
 footer i {
@@ -386,6 +390,26 @@ footer i {
 footer h6 {
   color: white;
   font-weight: 500;
+}
+footer a {
+  transition: 0.4s;
+}
+footer a:hover {
+  transition: 0.4s;
+}
+footer a:hover p {
+  color: #d5e8ea;
+  transition: 0.4s;
+}
+footer a:hover i {
+  color: #d5e8ea;
+  font-size: clamp(2rem, 7vw, 1.9rem);
+  transition: 0.4s;
+}
+footer a:hover h6 {
+  color: #d5e8ea;
+  font-weight: 500;
+  transition: 0.4s;
 }
 
 button:focus {

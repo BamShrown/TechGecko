@@ -443,6 +443,7 @@ a:hover {
 
 .alreadydiv {
     background-color: $sixth-color;
+    margin-bottom: -10px;
     
     svg {
         background-color: $fifth-color;
@@ -516,9 +517,12 @@ a:hover {
 
 footer {
     background-color: $fourth-color;
-    height: 400px;
+    height: auto;
     color: white;
 
+    p {
+        color: white;
+    }
     i {
         color: white;
         font-size: $h2;
@@ -526,6 +530,26 @@ footer {
     h6 {
         color: white;
         font-weight: 500;
+    }
+    a {
+        transition: 0.4s;
+        &:hover {
+            transition: 0.4s;
+            p {
+                color: $fifth-color;
+                transition: 0.4s;
+            }
+            i {
+                color: $fifth-color;
+                font-size: $h2;
+                transition: 0.4s;
+            }
+            h6 {
+                color: $fifth-color;
+                font-weight: 500;
+                transition: 0.4s;
+            }
+        }
     }
 }
 
