@@ -31,7 +31,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- JS -->
-    <script src="resources/js/index.js"></script>
+    <script src="js/index.js"></script>
 
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/6e62bb72eb.js" crossorigin="anonymous"></script>
@@ -71,8 +71,8 @@
     </div>
   </nav>
   
-<main class="packagemain py-5">
-  <div class="container my-3 my-md-5">
+<main class="packagemain py-5 pt-md-5 pb-md-4">
+  <div class="container my-3 my-md-5 mb-md-2">
     <div class="row">
         <div class="col-12 text-center text-md-left mb-2">
           <h1>Packages</h1>
@@ -89,77 +89,163 @@
     </div>
   </div>
 </main>
+<svg id="wave" class="w-100 d-none d-md-block"  style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 120" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(232, 240, 241, 1)" offset="0%"></stop><stop stop-color="rgba(213, 232, 234, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,12L80,26C160,40,320,68,480,70C640,72,800,48,960,32C1120,16,1280,8,1440,4C1600,0,1760,0,1920,0C2080,0,2240,0,2400,0C2560,0,2720,0,2880,16C3040,32,3200,64,3360,66C3520,68,3680,40,3840,30C4000,20,4160,28,4320,44C4480,60,4640,84,4800,90C4960,96,5120,84,5280,78C5440,72,5600,72,5760,70C5920,68,6080,64,6240,62C6400,60,6560,60,6720,52C6880,44,7040,28,7200,18C7360,8,7520,4,7680,12C7840,20,8000,40,8160,40C8320,40,8480,20,8640,18C8800,16,8960,32,9120,46C9280,60,9440,72,9600,68C9760,64,9920,44,10080,32C10240,20,10400,16,10560,20C10720,24,10880,36,11040,52C11200,68,11360,88,11440,98L11520,108L11520,120L11440,120C11360,120,11200,120,11040,120C10880,120,10720,120,10560,120C10400,120,10240,120,10080,120C9920,120,9760,120,9600,120C9440,120,9280,120,9120,120C8960,120,8800,120,8640,120C8480,120,8320,120,8160,120C8000,120,7840,120,7680,120C7520,120,7360,120,7200,120C7040,120,6880,120,6720,120C6560,120,6400,120,6240,120C6080,120,5920,120,5760,120C5600,120,5440,120,5280,120C5120,120,4960,120,4800,120C4640,120,4480,120,4320,120C4160,120,4000,120,3840,120C3680,120,3520,120,3360,120C3200,120,3040,120,2880,120C2720,120,2560,120,2400,120C2240,120,2080,120,1920,120C1760,120,1600,120,1440,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path></svg>
+
 <section>
-  <div class="container">
+  <div class="container reveal">
     <div class="col-12 row packagediv p-4 mt-5">
       <div class="col-12 text-center text-md-left packageheader">
           <h2>Standard Package</h2>           
       </div>
-      <div class="col-12 row pl-3 d-flex justify-content-center justify-content-md-start col-md-6 text-center text-md-left">
+      <div class="col-12 row pl-3 d-flex justify-content-center justify-content-md-start col-md-6 text-center text-md-left mb-3 mb-md-0">
         <div class="d-flex flex-column mb-4 text-center text-md-left">
           <h2 class="mr-3">£500</h2><h5><em>or £100 a month, over 6 months</em></h5>
         </div>  
           <p class="pr-md-5 pr-0">Our standard package is our most popular. We offer an easy to navigate, modern and simplified design.<br><br>This package is perfect for your cafes, barbers or your own personal handyman business.</p>
+          <a href="/resources/contact">
+            <button class="blob-btn d-none d-md-block">
+              GET IN TOUCH<i class="fas fa-chevron-right ml-2"></i>
+              <span class="blob-btn__inner">
+                <span class="blob-btn__blobs">
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                </span>
+              </span>
+            </button>
+          </a>
       </div>
       <div class="col-12 col-md-6 text-md-left row p-4 packagebullets">
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> Max 10 Pages</p>
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> Custom Modern Design</p>
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> 2 Amends Monthly</p>
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> Looks great On All Devices</p>
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> Free Favicon Design</p>
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> MailChimp Contact Form</p>
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> One Month Average Completion</p>
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> £20 Upkeep</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> Max 10 Pages</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> Custom Modern Design</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> 2 Amends Monthly</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> Looks great On All Devices</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> Free Favicon Design</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> MailChimp Contact Form</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> One Month Average Completion</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> £20 Upkeep</p>
       </div>
+      <a href="/resources/contact" class="m-auto">
+        <button class="blob-btn d-block d-md-none mt-4">
+          GET IN TOUCH<i class="fas fa-chevron-right ml-2"></i>
+          <span class="blob-btn__inner">
+            <span class="blob-btn__blobs">
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+            </span>
+          </span>
+        </button>
+      </a>
     </div>
   </div>
 </section>
 <section>
-  <div class="container">
-    <div class="col-12 row packagediv p-4 mt-5">
+  <div class="container reveal">
+    <div class="col-12 row packagediv packagediv2 p-4 mt-5">
       <div class="col-12 text-center text-md-left packageheader">
-          <h2>Standard Package</h2>           
+          <h2>Premium Package</h2>           
       </div>
-      <div class="col-12 row pl-3 d-flex justify-content-center justify-content-md-start col-md-6 text-center text-md-left">
+      <div class="col-12 row pl-3 d-flex justify-content-center justify-content-md-start col-md-6 text-center text-md-left  mb-3 mb-md-0">
         <div class="d-flex flex-column mb-4 text-center text-md-left">
-          <h2 class="mr-3">£500</h2><h5><em>or £100 a month, over 6 months</em></h5>
+          <h2 class="mr-3">£750</h2><h5><em>or £150 a month, over 6 months</em></h5>
         </div>  
           <p class="pr-md-5 pr-0">Our standard package is our most popular. We offer an easy to navigate, modern and simplified design.<br><br>This package is perfect for your cafes, barbers or your own personal handyman business.</p>
+          <a href="/resources/contact">
+            <button class="blob-btn d-none d-md-block">
+              GET IN TOUCH<i class="fas fa-chevron-right ml-2"></i>
+              <span class="blob-btn__inner">
+                <span class="blob-btn__blobs">
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                </span>
+              </span>
+            </button>
+          </a>
       </div>
       <div class="col-12 col-md-6 text-md-left row p-4 packagebullets">
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> Max 10 Pages</p>
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> Custom Modern Design</p>
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> 2 Amends Monthly</p>
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> Looks great On All Devices</p>
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> Free Favicon Design</p>
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> MailChimp Contact Form</p>
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> One Month Average Completion</p>
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> £20 Upkeep</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> Max 25 Pages</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> Custom Modern Design</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> 5 Amends Monthly</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> Looks great On All Devices</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> Free Favicon Design</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> MailChimp Contact Form</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> Two Months Average Completion</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> Free Logo Design</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> 10% Discount On Next Order</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> £25 Upkeep</p>
       </div>
+      <a href="/resources/contact" class="m-auto">
+        <button class="blob-btn d-block d-md-none mt-4">
+          GET IN TOUCH<i class="fas fa-chevron-right ml-2"></i>
+          <span class="blob-btn__inner">
+            <span class="blob-btn__blobs">
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+            </span>
+          </span>
+        </button>
+      </a>
     </div>
   </div>
-</section><section>
-  <div class="container">
-    <div class="col-12 row packagediv p-4 mt-5">
+</section>
+<section class="mb-5">
+  <div class="container reveal">
+    <div class="col-12 row packagediv packagediv3 p-4 mt-5">
       <div class="col-12 text-center text-md-left packageheader">
-          <h2>Standard Package</h2>           
+          <h2>Bespoke Package</h2>           
       </div>
-      <div class="col-12 row pl-3 d-flex justify-content-center justify-content-md-start col-md-6 text-center text-md-left">
+      <div class="col-12 row pl-3 d-flex justify-content-center justify-content-md-start col-md-6 text-center text-md-left  mb-3 mb-md-0">
         <div class="d-flex flex-column mb-4 text-center text-md-left">
-          <h2 class="mr-3">£500</h2><h5><em>or £100 a month, over 6 months</em></h5>
+          <h2 class="mr-3"><span class="textcolor">*</span>£1000</h2><h5><em>or <span class="textcolor">*</span>£200 a month, over 6 months</em></h5>
+          <p class="smalltext textcolor">* depending on website</p>
         </div>  
           <p class="pr-md-5 pr-0">Our standard package is our most popular. We offer an easy to navigate, modern and simplified design.<br><br>This package is perfect for your cafes, barbers or your own personal handyman business.</p>
+          <a href="/resources/contact">
+            <button class="blob-btn d-none d-md-block">
+              GET IN TOUCH<i class="fas fa-chevron-right ml-2"></i>
+              <span class="blob-btn__inner">
+                <span class="blob-btn__blobs">
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                </span>
+              </span>
+            </button>
+          </a>
       </div>
       <div class="col-12 col-md-6 text-md-left row p-4 packagebullets">
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> Max 10 Pages</p>
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> Custom Modern Design</p>
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> 2 Amends Monthly</p>
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> Looks great On All Devices</p>
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> Free Favicon Design</p>
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> MailChimp Contact Form</p>
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> One Month Average Completion</p>
-        <p class="col-6 pl-0 py-1 d-flex align-items-center"><img class="mr-2" src="images/Logo.png" alt=""> £20 Upkeep</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> Unlimited Pages</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> Bespoke Custom Design</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> Unlimited Amends</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> Looks great On All Devices</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> Free Favicon Design</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> MailChimp Contact Form</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> Three Months Average Completion</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> Free Logo Design</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> 15% Discount On Next Order</p>
+        <p class="col-6 pl-0 py-1 d-flex align-items-center"><i class="fas fa-chevron-right mr-2"></i> <span class="textcolor">*</span>£30 Upkeep</p>
       </div>
+      <a href="/resources/contact" class="m-auto">
+        <button class="blob-btn d-block d-md-none mt-4">
+          GET IN TOUCH<i class="fas fa-chevron-right ml-2"></i>
+          <span class="blob-btn__inner">
+            <span class="blob-btn__blobs">
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+            </span>
+          </span>
+        </button>
+      </a>
     </div>
   </div>
 </section>
