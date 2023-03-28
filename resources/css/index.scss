@@ -394,16 +394,26 @@ a:hover {
 //    ABOUT US
 ////////////////////////
 
+.aboutbody {
+    background-color: $fourth-color;
+}
+
 .aboutus {
     background-color: $sixth-color;
+    margin-bottom: -20px;
 }
+
 
 //
 //    CONTACT US
 ////////////////////////
 
+.contactbody {
+    background-color: $fourth-color;
+}
 .contactus {
     background-color: $sixth-color;
+    margin-bottom: -20px;
 
     select {
         padding: 7px;

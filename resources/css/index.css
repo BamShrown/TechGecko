@@ -281,12 +281,22 @@ a:hover {
   list-style: none;
 }
 
+.aboutbody {
+  background-color: #3499A4;
+}
+
 .aboutus {
   background-color: #e8f0f1;
+  margin-bottom: -20px;
+}
+
+.contactbody {
+  background-color: #3499A4;
 }
 
 .contactus {
   background-color: #e8f0f1;
+  margin-bottom: -20px;
 }
 .contactus select {
   padding: 7px;
