@@ -216,6 +216,9 @@ a:hover {
     .navlogo {
         width: 13rem;
     }
+    .navlogosml {
+        width: 3rem;
+    }
     .contactbtn {
         padding: 5px 16px 5px 16px!important;
         border-radius: 30px;
@@ -239,13 +242,20 @@ a:hover {
     }
 }
 
+
+
 .navbar-light, .navbar-nav, .nav-link {
     color: $secondary-color!important;
 
     &:hover {
         color: $fourth-color!important;
     }
+
 }
+
+    .navbar-toggler {
+        border: none;
+    }
 
 
 //

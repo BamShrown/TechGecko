@@ -154,6 +154,9 @@ a:hover {
 .navbar .navlogo {
   width: 13rem;
 }
+.navbar .navlogosml {
+  width: 3rem;
+}
 .navbar .contactbtn {
   padding: 5px 16px 5px 16px !important;
   border-radius: 30px;
@@ -177,6 +180,10 @@ a:hover {
 }
 .navbar-light:hover, .navbar-nav:hover, .nav-link:hover {
   color: #3499A4 !important;
+}
+
+.navbar-toggler {
+  border: none;
 }
 
 .herodiv video {
