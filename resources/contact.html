@@ -87,32 +87,35 @@
                 <div id="contactbox" class="d-flex justify-content-center align-items-center w-100">
                     <div>
                       <form class="w-100">
-                        <div class="form-group">
-                          <input type="contactname" class="form-control" id="Name" aria-describedby="emailHelp" placeholder="Name">                          
+                        <div class="mc-field-group mb-2">
+                          <input type="contactname"  class="form-control" name="FNAME" id="mce-FNAME" aria-describedby="emailHelp" placeholder="Name">                          
                         </div>
-                        <div class="form-group">
-                          <input type="businessname" class="form-control" id="BusinessName" aria-describedby="emailHelp" placeholder="Business Name">                          
+                        <div class="mc-field-group mb-2">
+                          <input type="businessname" class="form-control" id="mce-MMERGE3" 
+                          name="MMERGE3" aria-describedby="emailHelp" placeholder="Business Name">                          
                         </div>
-                        <div class="form-group">
-                          <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Email">
+                        <div class="form-group mb-2">
+                          <input type="email" class="form-control" name="EMAIL" id="Email" aria-describedby="emailHelp"
+                          id="mce-EMAIL" placeholder="Email">
                         </div>
-                        <div class="form-group">
-                          <input type="telephone" class="form-control" id="Telephone" placeholder="Telephone">
+                        <div class="form-group mb-2">
+                          <input type="telephone" class="form-control"
+                          name="PHONE" 
+                          id="mce-PHONE" placeholder="Telephone">
                         </div>
-                        <div class="form-group">
-                            <select name="pets" id="pet-select">
+                        <div class="form-group mb-2">
+                            <select name="MMERGE6" id="mce-MMERGE6">
                                 <option value="">Please select a package</option>
-                                <option value="standard">Standard</option>
-                                <option value="premium">Premium</option>
-                                <option value="bespoke">Bespoke</option>
-                                <option value="bespoke">Unsure</option>
+                                <option  value="Standard">Standard</option>
+                                <option value="Premium">Premium</option>
+                                <option value="Bespoke">Bespoke</option>
+                                <option value="Unsure">Unsure</option>
                             </select>
                         </div>
-                        <div class="form-group">
-                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Describe your business"></textarea>
+                        <div class="mc-field-group mb-2">
+                          <textarea class="form-control" name="MMERGE2" id="mce-MMERGE2" rows="3" placeholder="Describe your business"></textarea>
                         </div>
-                        <button href="/resources/packages" class="btn-primary d-flex m-auto align-items-center d-md-none ">SUBMIT <i class="fas fa-chevron-right ml-2"></i></button>
-                        <button class="blob-btn d-none d-md-flex align-items-center">
+                        <submit class="blob-btn d-none d-md-flex align-items-center w-50" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
                           SUBMIT<i class="fas fa-chevron-right ml-2"></i>
                           <span class="blob-btn__inner">
                             <span class="blob-btn__blobs">
@@ -126,6 +129,14 @@
                       </form>
                     </div>
                   </div>
+
+
+                  <!-- Begin Mailchimp Signup Form -->
+
+
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[4]='PHONE';ftypes[4]='phone';fnames[6]='MMERGE6';ftypes[6]='dropdown';fnames[2]='MMERGE2';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
             </div>
         </div>
     </div>
