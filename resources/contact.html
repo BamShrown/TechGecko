@@ -86,6 +86,26 @@
             <div class="col-12 col-md-7 d-flex justify-content-center">
                 <div id="contactbox" class="d-flex justify-content-center align-items-center w-100">
                     <div>
+                      <form action="https://getform.io/f/0ee373a6-24e5-40ac-a3ac-c009628fbb61" method="POST">
+                        <input type="text" name="name">
+                        <input type="email" name="email">
+                        <input type="text" name="message">
+                        <!-- add hidden Honeypot input to prevent spams -->
+                        <input type="hidden" name="_gotcha" style="display:none !important">
+                        <!-- checkbox handle -->
+                        <input type="checkbox" name="subscribe" value="yes" checked>
+                        <input type="hidden" name="subscribe" value="no">
+                        <!-- radio button handle -->
+                        <input type="radio" name="gender" value="male" checked>
+                        <input type="radio" name="gender" value="female">
+                        <input type="radio" name="gender" value="other">
+                        <!-- select field handle -->
+                        <select name="work-experience">
+                            <option value="one-year">0-1 years</option>
+                            <option value="one-five-years">1-5 years</option>
+                        </select>
+                        <button type="submit">Send</button>
+                    </form>
                       <form class="w-100" action="https://tech-gecko.us13.list-manage.com/subscribe/post?u=f2156c97a173f4abbb2d61617&amp;id=f67e65bc22&amp;f_id=00c1dae5f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <div class="mc-field-group mb-2">
                           <input type="contactname"  class="form-control" name="FNAME" id="mce-FNAME" aria-describedby="emailHelp" placeholder="Name">                          
@@ -155,6 +175,9 @@
 	<input type="text" name="PHONE" class="" value="" id="mce-PHONE" placeholder="Phone Number">
 	<span id="mce-PHONE-HELPERTEXT" class="helper_text"></span>
 	
+
+
+  
 </div>
 <div class="mc-field-group">
 	<label for="mce-MMERGE6">Please Select A Package </label>
